@@ -69,7 +69,7 @@ return (root);
 
 
 int main()
-{
+{           // we populate the data firest dynamically sir.
      struct node *root  = newnode(1);
      root->left             = newnode(2);
      root->right           = newnode(3);
